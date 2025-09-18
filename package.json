@@ -1,0 +1,19 @@
+{
+  "name": "restful-users-api",
+  "version": "1.0.0",
+  "description": "Simple RESTful API for managing users (assignment)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Hrithik",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
